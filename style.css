@@ -1,0 +1,195 @@
+body {
+    overflow-x: hidden;
+    margin-top: 4rem;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    min-height: 4rem;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    ;
+}
+
+.navbar {
+    background-color: #1ea2ca;
+    border-color: #09bef5;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+#section1 {
+    min-height: 100vh;
+    background-color: rgb(11, 77, 107)
+}
+
+#section2 {
+    min-height: 100vh;
+    background-color: rgb(13, 104, 145)
+}
+
+#section3 {
+    min-height: 100vh;
+    background-color: rgb(8, 82, 115)
+}
+
+#handCell {
+    max-width: 70%;
+    position: relative;
+    right: -15rem;
+}
+
+#textoSection1 {
+    align-self: center;
+    position: relative;
+    left: 4rem;
+}
+
+#textoSection2 {
+    align-self: center;
+    position: relative;
+    left: 4rem;
+}
+
+#textoSection3 {
+    margin-top: 10vh;
+    align-self: center;
+    align-content: center;
+    position: relative;
+}
+
+#tittle {
+    font-size: 10rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.subtittle {
+    font-family: 'Poppins', sans-serif;
+}
+
+#cellphone {
+    position: relative;
+    top: 2rem;
+    left: 22vh;
+}
+
+#sideCell {
+    position: relative;
+    right: 10rem;
+}
+
+#section4 {
+    min-height: 50vh;
+}
+
+#tDownload {
+    margin-top: 14rem;
+    font-size: 9rem;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media only screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+        margin-top: 4.2rem;
+    }
+    #header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        min-height: 2rem;
+        align-items: center;
+    }
+    .nav-item {
+        font-size: 1rem;
+        ;
+    }
+    .navbar {
+        background-color: #1ea2ca;
+        border-color: #09bef5;
+    }
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+    #section1 {
+        min-height: 80vh;
+        max-width: 100vh;
+        background-color: rgb(11, 77, 107)
+    }
+    #section2 {
+        min-height: 100vh;
+        background-color: rgb(13, 104, 145)
+    }
+    #section3 {
+        min-height: 100vh;
+        background-color: rgb(8, 82, 115)
+    }
+    #handCell {
+        max-width: 50%;
+        position: relative;
+        right: -15rem;
+    }
+    #textoSection1 {
+        align-self: center;
+        position: relative;
+        left: 4rem;
+    }
+    #textoSection2 {
+        align-self: center;
+        position: relative;
+        left: 4rem;
+    }
+    #textoSection3 {
+        margin-top: 10vh;
+        align-self: center;
+        align-content: center;
+        position: relative;
+        min-height: 100vh;
+    }
+    #tittle {
+        font-size: 2rem;
+        font-family: 'Anton', sans-serif;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .subtittle {
+        font-family: 'Poppins', sans-serif;
+    }
+    #cellphone {
+        position: relative;
+        top: 2rem;
+        left: 10rem;
+    }
+    #sideCell {
+        position: relative;
+        right: 10rem;
+    }
+    #section4 {
+        min-height: 30rem;
+    }
+    #tDownload {
+        margin-top: 14rem;
+        font-size: 9rem;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+    }
+}
